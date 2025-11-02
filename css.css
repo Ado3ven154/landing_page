@@ -1,0 +1,154 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap');
+
+*{
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+section{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+
+#haupt{
+    height: 100vh;
+    background: url(img/bgMAIN.png);
+    overflow: hidden;
+}
+.haupt-block{
+    flex-direction: column;
+    height: 100vh;
+    
+}
+.about-block{
+    background: url(img/bgABOUT.png);
+    height: 100vh;
+
+}
+.skills-block{
+    background: url(img/bgSKILLS.png);
+    height: 100vh;
+
+}
+.works-block{
+    background: url(img/bgWORKS.png);
+    height: 100vh;
+}
+.comments-block{
+    background: url(img/bgCOMMENTS.png);
+    height: 100vh;
+}
+.haupt-block, .about-block, .skills-block, .works-block, .comments-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 70vh;
+
+}
+.card{ 
+   
+    background: url(img/form1.png);
+    width:874px;
+    height:223px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 0 auto 0 auto;
+}
+
+menu{
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    position: fixed;
+    list-style: none;
+    width:100% ;
+    z-index: 100;
+}
+li{
+    margin: 10px;
+}
+li button{
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 12px;
+        padding: 10px;
+        
+}
+
+
+.maskot{
+    height: 100px;
+    width: 100px;
+    margin-right: 600px ;
+    margin-top: -100px;
+}
+.planet{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 113px;
+    left: 960px;
+ 
+}
+
+.card h1{
+    font-size: 50px;
+    text-align: center;
+}
+.card p{
+    position: relative;
+    left: 340px;
+    
+}
+
+.btn{
+    width: 200px;
+    height: 60px;
+    border-radius: 100px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: #BBFF2C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    box-shadow: 5px 5px #2b2d35;
+    transition-duration:0.5s ;
+
+}
+.btn a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #000000;
+}
+.btn:hover{
+    background-color:#97cd24 ;
+    cursor: pointer;
+    
+    
+}
+
+
+.mini-title{
+    color: #2b2d35;
+    font-size: 80px;
+    margin-top:70px;
+    text-transform: uppercase;
+}
+.mini-subtitle{
+    color:#2b2d35;
+    font-size: 20px;
+    font-family: "Comfortaa";
+}
+
+
+
+
+
